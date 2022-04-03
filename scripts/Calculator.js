@@ -1,9 +1,9 @@
-"use strict";
+'use strict';
 
 const Calculator = () => {
   const checkInput = (a, b) => {
-    if (typeof a !== "number" || typeof b !== "number")
-      throw new Error("Inputs must be numbers");
+    if (typeof a !== 'number' || typeof b !== 'number')
+      throw new Error('Inputs must be numbers');
   };
 
   const add = (a, b) => {

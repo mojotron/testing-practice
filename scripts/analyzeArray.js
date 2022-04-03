@@ -1,9 +1,9 @@
-"use strict";
+'use strict';
 
-const analyzeArray = (arr) => {
-  if (!Array.isArray(arr)) throw new Error("Input must be array of numbers");
-  if (arr.some((ele) => typeof ele !== "number"))
-    throw new Error("Input must be array of numbers");
+const analyzeArray = arr => {
+  if (!Array.isArray(arr)) throw new Error('Input must be array of numbers');
+  if (arr.some(ele => typeof ele !== 'number'))
+    throw new Error('Input must be array of numbers');
 
   return {
     max: Math.max(...arr),
